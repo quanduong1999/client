@@ -1,0 +1,46 @@
+@media screen and (max-width: 975px) {
+    svg.header-icons {
+        width: 20%;
+    }
+    a.header-menu-list-right-li.nav-link {
+        display: flex;
+    }
+    .mr-auto.header-menu-list-right.navbar-nav {
+        width: 50%;
+        margin-bottom: 146px;
+    }
+    div#basic-navbar-nav {
+        /* height: auto; */
+    }
+    img.header-logo {
+        width: 33%;
+    }
+    .mr-auto.header-menu-list.navbar-nav {
+        height: 320px;
+    }
+    img.card-img-top.home-teacher-img {
+        margin: auto;
+    }
+    .about_spa_feedbackstar.row {
+        text-align: center;
+        margin: auto;
+    }
+    div#rating {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wallet {
+        padding-top: 20%;
+    }
+    img.banner-li-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .slider {
+        height: 625px;
+    }
+}

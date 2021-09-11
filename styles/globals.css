@@ -1,0 +1,73 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.buy {
+    margin-bottom: 10%;
+}
+
+
+/* noti */
+
+.fade.alert-noti.alert.alert-danger.alert-dismissible.show {
+    position: fixed;
+    width: 30%;
+    height: 55px;
+    z-index: 10000;
+    right: 2%;
+    top: 10%;
+}
+
+
+/* Css Header */
+
+@import url("./header/header.css");
+
+/* Css Home */
+
+@import url("./home/home.css");
+@import url("./home/carousel.css");
+@import url("./home/course.css");
+@import url("./home/pt.css");
+
+/* Contact-Us */
+
+@import url("./contact-us/contact-us.css");
+
+/* Footer */
+
+@import url("./footer/footer.css");
+
+/* About */
+
+@import url("./about/about.css");
+
+/* Profiles */
+
+@import url("./profiles/profiles.css");
+
+/* CheckIn */
+
+@import url("./checkin/checkin.css");
+
+/* Wallet */
+
+@import url("./wallet/wallet.css");
+
+/* responsive */
+
+@import url("./responsive.css");
